@@ -209,7 +209,7 @@
     }
   },
   "variables": {
-    "assetLocation":"[concat(parameters('baseUrl'),'/dsc')]",
+    "assetLocation":"https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-three-vm/dsc",
     "configDatabaseName": "SP_Config",
     "administrationContentDatabaseName": "SP_AdminContent",
     "contentDatabaseName": "spARM_Content",
