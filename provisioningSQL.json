@@ -71,7 +71,7 @@
             "name": "osdisk",
             "vhd": {
 
-              "uri": "[concat(reference(concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountNamePrefix')), concat('1.', '2015-06-15').primaryEndpoints.blob), '/vhds/', parameters('sqlVMName'),'-osdisk.vhd')]"
+              "uri": "[concat('http://',parameters('storageAccountNamePrefix'),'1.blob.core.usgovcloudapi.net/vhds/',parameters('sqlVMName'),'-osdisk.vhd')]"
 
 
             },
